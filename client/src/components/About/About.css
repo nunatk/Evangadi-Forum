@@ -1,0 +1,32 @@
+.about-section {
+  max-width: 520px;
+}
+
+.about-label {
+  color: #ff8500;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.about-section h2 {
+  font-size: 34px;
+  margin: 14px 0 20px;
+}
+
+.about-section p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+.about-btn {
+  background: #ff8500;
+  color: #fff;
+  border: none;
+  padding: 10px 26px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 12px;
+}

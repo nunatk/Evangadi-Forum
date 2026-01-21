@@ -1,0 +1,42 @@
+.auth-page {
+  min-height: 100vh;
+  background-image: url("../../assets/images/bg-shape.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  background-size: cover;
+  background-color: #f6f7fb;
+  padding: 80px 40px;
+}
+
+.auth-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.auth-left {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-right {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .auth-container {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-right {
+    display: none;
+  }
+
+  .auth-page {
+    padding: 60px 16px;
+  }
+}

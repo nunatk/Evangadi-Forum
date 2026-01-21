@@ -1,0 +1,30 @@
+.footer {
+  background: #2d2f38;
+  color: #fff;
+  padding: 50px 20px;
+  margin-top: 80px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.footer-logo {
+  height: 38px;
+  margin-bottom: 12px;
+}
+
+.footer h4 {
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #d0d0d0;
+}

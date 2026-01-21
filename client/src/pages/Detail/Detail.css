@@ -1,0 +1,207 @@
+.detail-page {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 16px;
+}
+
+/* Question Card */
+.question-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 22px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+  margin-bottom: 35px;
+}
+
+.question-box h2 {
+  margin-bottom: 10px;
+}
+
+.question-meta {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Answers */
+.answer-title {
+  margin-bottom: 18px;
+}
+
+.answers-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.answer-card {
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.answer-user {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.answer-content {
+  color: #333;
+}
+
+/* Answer Form */
+.answer-form-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 22px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* Inline Error Message */
+.answer-error {
+  background: #ffe6e6;
+  color: #b30000;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* Textarea */
+.answer-form textarea {
+  width: 100%;
+  min-height: 140px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  resize: vertical;
+  font-size: 15px;
+}
+
+/* Button */
+.answer-form button {
+  margin-top: 12px;
+  background: #516cf0;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.answer-form button:hover {
+  background: #4056d6;
+}
+
+/* Owner Controls (Edit / Delete buttons) */
+.owner-controls {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.owner-controls button {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.owner-controls button:hover {
+  background: #f0f2ff;
+  border-color: #516cf0;
+  color: #516cf0;
+}
+
+/* Question edit form */
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.edit-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.edit-form button {
+  background: #516cf0;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.edit-form button[type="button"] {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.edit-form button:hover {
+  opacity: 0.9;
+}
+
+/* Answer card spacing improvements */
+.answer-card {
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.answer-user {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.answer-content {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Answer form box */
+.answer-form-box {
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.answer-form-box h4 {
+  margin-bottom: 10px;
+}
+
+.answer-error {
+  background: #ffe6e6;
+  color: #b30000;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* Make buttons align nicely on mobile */
+@media (max-width: 600px) {
+  .owner-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .owner-controls button {
+    width: 100%;
+  }
+}
