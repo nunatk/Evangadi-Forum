@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/evangadi-header-logo.png";
+import logo from "../../assets/images/Evangadi-header-logo.png";
 import "./Header.css";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
