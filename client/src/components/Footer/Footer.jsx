@@ -1,4 +1,4 @@
-import logo from "../../assets/images/evangadi-footer-logo.png";
+import logo from "../../assets/images/Evangadi-footer-logo.png";
 import "./Footer.css";
 
 export default function Footer() {
