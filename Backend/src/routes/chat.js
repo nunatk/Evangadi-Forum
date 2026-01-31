@@ -35,6 +35,7 @@ router.post("/", authMiddleware, async (req, res) => {
     );
 
     // 2) Ask OpenAI
+    console.log("STEP 1 saved question");
     const aiResponse = await openai.responses.create({
       model: "gpt-4o-mini",
       input: [
@@ -46,7 +47,7 @@ router.post("/", authMiddleware, async (req, res) => {
         { role: "user", content: userMessage }
       ]
     });
-
+    console.log("STEP 2 openai success");
     const aiReply = aiResponse.output?.[0]?.content?.[0]?.text || "I could not generate a response.";
 
     // 3) Save AI reply as answer (posted by the bot user)
